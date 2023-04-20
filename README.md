@@ -7,7 +7,7 @@ The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, with 5
 <ins>Model:</ins>
 We implemented a simple CNN architecture using Keras. The model consists of three convolutional layers with max-pooling, followed by two fully connected layers. We used the softmax activation function in the output layer to produce probability distributions over the 10 possible classes in the CIFAR-10 dataset.
 
-During training, we used the Adam optimizer and the categorical cross-entropy loss function. We trained the model for 10 epochs, which achieved an accuracy of around 64% on the test set.
+During training, we used the Adam optimizer and the categorical cross-entropy loss function. We trained the model for 10 epochs, which achieved an accuracy of around 60% on the train set.
 
 <ins>Requirements:</ins>
 Python 3.x
